@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantiCurso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+    html {
+         height: 100%;
+         margin: 0;
+    }
+    body {
+        background: linear-gradient(to bottom, orange,red);
+        text-align: center;
+        font-family: Poppins;
+        color: white;
+        background-repeat: no-repeats;
+        }
+        h1 {
+            position: relative;
+            top: 50px;
+            font-size: 100px;
+            animation: Animation 1s;
+        }
+        @keyframes Animation{
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+        }
+        button {
+            width: 260px;
+            height: 100px;
+            position: relative;
+            top: 75px;
+            border-radius: 50px;
+            font-family: Poppins;
+            background: linear-gradient(to top, orange,rgb(226, 0, 0));
+            border: 5px black solid;
+            cursor: pointer;
+            box-shadow: 8px 6px 5px rgba(0, 0, 0, 0.3);
+        }   
+        button:active {
+        transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Bienvenido!</h1>
+    <button onclick="click1()">Empezar Curso</button>
+    <script>
+        function click1() {
+            window.location.href = "https://classroom.google.com/c/Nzg5NjM1NjUwOTIy?cjc=rw6u6dtt";
+        }
+    </script>
+</body>
+</html>
